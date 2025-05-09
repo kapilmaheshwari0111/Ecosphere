@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/profileicon"
+        android:title="Profile" />
+
+    <item
+        android:id="@+id/nav_chatter_box"
+        android:icon="@drawable/boticon"
+        android:title="ChatterBox" />
+
+    <item
+        android:id="@+id/nav_scan"
+        android:title="Scan Something"
+        android:icon="@drawable/scannericon" />
+
+
+
+    <item
+        android:id="@+id/nav_contact_us"
+        android:icon="@drawable/contact"
+        android:title="Contact Us" />
+
+
+    <item
+        android:id="@+id/nav_about_us"
+        android:icon="@drawable/aboutusicon"
+        android:title="About Us" />
+
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/logouticon"
+        android:title="Logout" />
+
+
+
+</menu>

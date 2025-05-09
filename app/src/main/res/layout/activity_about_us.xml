@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#f1f1f1">
+
+    <!-- Header Text -->
+    <TextView
+        android:id="@+id/about_us_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About Ecosphere"
+        android:textColor="#00796B"
+        android:textStyle="bold"
+        android:textSize="28sp"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="12dp" />
+
+    <!-- Image Icon -->
+    <ImageView
+        android:id="@+id/about_us_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/about_us_text"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/sdg12"
+        android:padding="8dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- SDG 12 Information -->
+    <TextView
+        android:id="@+id/about_us_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/about_us_image"
+        android:layout_marginTop="12dp"
+        android:layout_centerHorizontal="true"
+        android:text="At Ecosphere, our mission aligns with SDG 12 – Responsible Consumption and Production."
+        android:textColor="#333333"
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:gravity="center" />
+
+    <!-- Detailed Description -->
+    <TextView
+        android:id="@+id/about_us_detailed_description"
+        android:layout_below="@id/about_us_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="We strive to create a sustainable future by encouraging businesses and individuals to reduce waste, increase recycling, and make eco-friendly choices. Through innovative solutions and community partnerships, we aim to minimize environmental impact, conserve resources, and promote a circular economy for a healthier planet."
+        android:textColor="#555555"
+        android:textSize="16sp"
+        android:paddingTop="12dp"
+        android:lineSpacingExtra="4dp" />
+
+    <!-- Decorative Divider -->
+    <View
+        android:layout_below="@id/about_us_detailed_description"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="16dp"
+        android:background="#BDBDBD"/>
+
+    <!-- Footer Text -->
+    <TextView
+        android:id="@+id/footer_text"
+        android:layout_below="@id/about_us_detailed_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Together for a sustainable world"
+        android:textColor="#00796B"
+        android:textStyle="italic"
+        android:textSize="16sp"
+        android:padding="8dp"/>
+</RelativeLayout>
